@@ -1,0 +1,245 @@
+:root {
+  --bg: #0e0e12;
+  --surface: #181820;
+  --surface-2: #22222e;
+  --text: #f2f2f7;
+  --muted: #8b8b9a;
+  --accent: #7c5cff;
+  --accent-2: #4fd1c5;
+  --border: #2c2c3a;
+  --success: #38d39f;
+  --danger: #ff5c7c;
+  --warning: #ffb547;
+}
+
+body.theme-light {
+  --bg: #f5f5f8;
+  --surface: #ffffff;
+  --surface-2: #ececf2;
+  --text: #16161d;
+  --muted: #6b6b7a;
+  --accent: #6b46ff;
+  --accent-2: #14b8a6;
+  --border: #dcdce4;
+  --success: #0f9d69;
+  --danger: #d63355;
+  --warning: #c47a00;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid var(--border);
+  background: var(--surface);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+header h1 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.theme-toggle {
+  background: var(--surface-2);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.theme-toggle:hover {
+  transform: rotate(180deg);
+}
+
+main {
+  flex: 1;
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 1.2rem;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
+  transition: background 0.3s ease, border-color 0.3s ease;
+}
+
+.card h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.9rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.row {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+input[type="text"] {
+  flex: 1;
+  min-width: 180px;
+  padding: 0.75rem 1rem;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+  color: var(--text);
+  font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  font-size: 0.95rem;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+input[type="text"]:focus {
+  border-color: var(--accent);
+}
+
+button {
+  padding: 0.75rem 1.2rem;
+  border-radius: 10px;
+  border: none;
+  background: var(--accent);
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: transform 0.1s ease, opacity 0.2s ease, background 0.2s ease;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button:active {
+  transform: scale(0.97);
+}
+
+button.secondary {
+  background: var(--surface-2);
+  color: var(--text);
+  border: 1px solid var(--border);
+}
+
+.output {
+  font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 1rem;
+  background: var(--surface-2);
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 0.8rem;
+  word-break: break-all;
+  color: var(--accent-2);
+}
+
+.result {
+  margin-top: 0.9rem;
+  padding: 0.9rem 1rem;
+  border-radius: 10px;
+  font-size: 0.92rem;
+  display: none;
+  border-left: 4px solid var(--border);
+  background: var(--surface-2);
+  word-break: break-word;
+}
+
+.result.show {
+  display: block;
+}
+
+.result.success {
+  border-left-color: var(--success);
+}
+
+.result.danger {
+  border-left-color: var(--danger);
+}
+
+.result.warning {
+  border-left-color: var(--warning);
+}
+
+.result .title {
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 0.2rem;
+}
+
+.result .sub {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.result img {
+  display: block;
+  margin-top: 0.6rem;
+  max-width: 96px;
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 1.2rem;
+  color: var(--muted);
+  font-size: 0.8rem;
+  border-top: 1px solid var(--border);
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 1.1rem;
+  }
+  .output {
+    font-size: 1.1rem;
+  }
+  main {
+    padding: 1rem 0.7rem;
+  }
+  .card {
+    padding: 1rem;
+  }
+}
