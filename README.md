@@ -2,7 +2,7 @@
 API for randomized 3DS Title ID's
 ---
 ### https://tid-api.onrender.com
-[![JS](https://img.shields.io/badge/JavaScript-F7DF1E?&logo=javascript&logoColor=black)]
+[JS](https://img.shields.io/badge/JavaScript-F7DF1E?&logo=javascript&logoColor=black)
 [![License](https://img.shields.io/badge/license-GPLv3-red)](https://github.com/Morrisonion/TID-API/raw/main/LICENSE)
 ---
 ## How it works
