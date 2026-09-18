@@ -3,42 +3,15 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>TID-API</title>
-<link rel="stylesheet" href="style.css">
+<title>TID</title>
+<style>
+html,body{margin:0;padding:0;background:#0e0e12;color:#4fd1c5;font-family:ui-monospace,Menlo,monospace;}
+body{display:flex;align-items:center;justify-content:center;min-height:100vh;font-size:2rem;letter-spacing:1px;word-break:break-all;padding:1rem;text-align:center;}
+</style>
 </head>
 <body>
-<header>
-  <h1>TID-API</h1>
-  <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
-    <span class="theme-icon">◐</span>
-  </button>
-</header>
-
-<main>
-  <section class="card">
-    <h2>Title ID Checker</h2>
-    <div class="row">
-      <input type="text" id="checkInput" placeholder="e.g. 000400000F7FFF00" maxlength="16">
-      <button id="checkBtn">Check</button>
-    </div>
-    <div id="checkResult" class="result"></div>
-  </section>
-
-  <section class="card">
-    <h2>Random Title ID</h2>
-    <div class="output" id="tidOutput">—</div>
-    <div class="row">
-      <button id="tidGenBtn">Generate</button>
-      <button id="tidCopyBtn" class="secondary">Copy</button>
-    </div>
-  </section>
-</main>
-
-<footer>
-  <span>TID-API</span>
-</footer>
-
-<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<div id="out">…</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script src="app.js"></script>
 </body>
 </html>
