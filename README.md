@@ -21,6 +21,7 @@ Every request returns a freshly generated Title ID as `text/plain`. Generation w
 3. If the result already exists in any of the loaded databases, the process repeats until an unused ID is found.
 
 Because the generation runs server-side, the response contains the raw Title ID as plain text – no JavaScript, no HTML, no client-side rendering required. Crawlers, `curl`, and link previews all see the same value a browser would.
+
 ---
 ## Credits
 - Inspired by [HomebrewTitleIDGenerator](https://github.com/StudioNameHere/HomebrewTitleIDGenerator)
