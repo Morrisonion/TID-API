@@ -10,7 +10,7 @@ API for randomized 3DS Title ID's
 When the server starts, it fetches three public databases in parallel:
 
 - **titledb.com API** – homebrew applications and their Title IDs
-- **nus-info** – official eShop / NUS title ID's for (filtered to `platform_device == "CTR"`)
+- **nus-info** – official eShop / NUS title ID's (filtered to `platform_device == "CTR"`)
 
 All entries are stored in memory as lookup maps. A Title ID is considered **used** if it appears in any of the three sources.
 
