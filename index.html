@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TID-API</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>TID-API</h1>
+  <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+    <span class="theme-icon">◐</span>
+  </button>
+</header>
+
+<main>
+  <section class="card">
+    <h2>Title ID Checker</h2>
+    <div class="row">
+      <input type="text" id="checkInput" placeholder="e.g. 000400000F7FFF00" maxlength="16">
+      <button id="checkBtn">Check</button>
+    </div>
+    <div id="checkResult" class="result"></div>
+  </section>
+
+  <section class="card">
+    <h2>Random Title ID</h2>
+    <div class="output" id="tidOutput">—</div>
+    <div class="row">
+      <button id="tidGenBtn">Generate</button>
+      <button id="tidCopyBtn" class="secondary">Copy</button>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <span>TID-API</span>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
