@@ -9,12 +9,12 @@ API for randomized 3DS Title ID's
 
 **TID-API** generates random, unused Nintendo 3DS Title IDs on demand.
 
-When the server starts, it fetches three public databases in parallel:
+When the server starts, it fetches two public databases in parallel:
 
-- **titledb.com API** – homebrew applications and their Title IDs
-- **nus-info** – official eShop / NUS title ID's (filtered to `platform_device == "CTR"`)
+- **nus-titles** – official eShop / NUS title IDs, sourced from [`CTR-TID's-database`](https://github.com/Morrisonion/CTR-TID-s-database)
+- **udb-titles** – homebrew applications from the Universal-DB, also compiled into [`CTR-TID's-database`](https://github.com/Morrisonion/CTR-TID-s-database)
 
-All entries are stored in memory as lookup maps. A Title ID is considered **used** if it appears in any of the three sources.
+Both databases are hosted as static JSON via GitHub Pages and refreshed hourly through GitHub Actions. All entries are stored in memory as lookup maps. A Title ID is considered **used** if it appears in either source.
 
 Every request returns a freshly generated Title ID as `text/plain`. Generation works like this:
 
@@ -27,5 +27,4 @@ Because the generation runs server-side, the response contains the raw Title ID 
 ---
 ## Credits
 - Inspired by [HomebrewTitleIDGenerator](https://github.com/StudioNameHere/HomebrewTitleIDGenerator)
-- Uses [nus-info](https://github.com/DanTheMan827/nus-info)
-- API [TitleDB](titledb.com)
+- Title ID checking 
