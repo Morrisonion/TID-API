@@ -2,8 +2,8 @@ const express = require("express");
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-const NUS_URL = "https://morrisonion.github.io/CTR-TID-s-database/data/nus-titles.json";
-const UDB_URL = "https://morrisonion.github.io/CTR-TID-s-database/data/udb-titles.json";
+const NUS_URL = "https://morrisonion.github.io/TID-API/data/nus-titles.json";
+const UDB_URL = "https://morrisonion.github.io/TID-API/data/udb-titles.json";
 
 const TITLE_ID_PRE = "000400000";
 const TITLE_ID_POST = "00";
