@@ -11,8 +11,8 @@ API for randomized 3DS Title ID's
 
 When the server starts, it fetches two public databases in parallel:
 
-- **nus-titles** – official eShop / NUS title IDs, sourced from [`CTR-TID's-database`](https://github.com/Morrisonion/CTR-TID-s-database)
-- **udb-titles** – homebrew applications from the Universal-DB, also compiled into [`CTR-TID's-database`](https://github.com/Morrisonion/CTR-TID-s-database)
+- **nus-titles** – official eShop / NUS title IDs, sourced from 'https://morrisonion.github.io/TID-API/data/nus-titles.json'
+- **udb-titles** – homebrew applications from the Universal-DB, from 'https://morrisonion.github.io/TID-API/data/udb-titles.json'
 
 Both databases are hosted as static JSON via GitHub Pages and refreshed hourly through GitHub Actions. All entries are stored in memory as lookup maps. A Title ID is considered **used** if it appears in either source.
 
@@ -27,4 +27,3 @@ Because the generation runs server-side, the response contains the raw Title ID 
 ---
 ## Credits
 - Inspired by [HomebrewTitleIDGenerator](https://github.com/StudioNameHere/HomebrewTitleIDGenerator)
-- Title ID checking [CTR-TID's-database](https://github.com/Morrisonion/CTR-TID-s-database)
