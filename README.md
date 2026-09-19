@@ -27,4 +27,4 @@ Because the generation runs server-side, the response contains the raw Title ID 
 ---
 ## Credits
 - Inspired by [HomebrewTitleIDGenerator](https://github.com/StudioNameHere/HomebrewTitleIDGenerator)
-- Title ID checking 
+- Title ID checking [CTR-TID's-database](https://github.com/Morrisonion/CTR-TID-s-database)
