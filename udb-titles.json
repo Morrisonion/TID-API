@@ -1,0 +1,722 @@
+{
+  "00040000021A3900": {
+    "name": "MaikelChan/SpaceCadetPinball"
+  },
+  "0004000004360000": {
+    "name": "Universal-Team/3DEins"
+  },
+  "0004000004359300": {
+    "name": "SuperSaiyajinStackZ/3DElf"
+  },
+  "0004000009F99E00": {
+    "name": "aliceinpalth/3dfetch"
+  },
+  "0004000000937200": {
+    "name": "t0xid/3DiceRoller"
+  },
+  "000400000D7E1100": {
+    "name": "8-bitStudio/3d-jelly"
+  },
+  "000400000AC10C00": {
+    "name": "Jocc3D/3DS-Alarming-Clock"
+  },
+  "000400000FF3FF00": {
+    "name": "MC-Gaming-59o/Homebrew-3DS-IP-Webcam-Viewer"
+  },
+  "0004000000111100": {
+    "name": "cmdada/3DS-CLI"
+  },
+  "000400000A1B2C00": {
+    "name": "Ryuzaki-MrL/RomFS-Explorer"
+  },
+  "000400000E98BA00": {
+    "name": "Buggem/3ds-donut"
+  },
+  "000400000EB11100": {
+    "name": "DomRe/3DS_eBook_Reader"
+  },
+  "000400000FB6E000": {
+    "name": "AtexBg/fbge-installer"
+  },
+  "0004000000888900": {
+    "name": "ZIXT233/3DS-FileBrowser"
+  },
+  "0004000000888800": {
+    "name": "dimaguy/3ds-httpd"
+  },
+  "0004000005247C00": {
+    "name": "selloa/3DS-Random-Game-Launcher"
+  },
+  "0004000001660000": {
+    "name": "joel16/3DS-Recovery-Tool"
+  },
+  "00040000049FE200": {
+    "name": "coolguy1842/SaveSync"
+  },
+  "00040000001DFC00": {
+    "name": "memeToasty/3ds_sorting"
+  },
+  "0004000003DAA300": {
+    "name": "TricksterGuy/3ds-vgmstream"
+  },
+  "0004000003D17000": {
+    "name": "LiquidFenrir/3ds1010"
+  },
+  "0004000003DCE100": {
+    "name": "dcuevasa/3DS_CodEdit"
+  },
+  "000400000F002300": {
+    "name": "Asellus/3DS_Quick_Reboot"
+  },
+  "0004000001BF5200": {
+    "name": "cylin577/3DSC2"
+  },
+  "000400000F0FC200": {
+    "name": "CTurt/3DSController"
+  },
+  "0004000000F23F00": {
+    "name": "Creckeryop/3dsCookieClicker"
+  },
+  "0004000001620000": {
+    "name": "joel16/3DShell"
+  },
+  "0004000001600000": {
+    "name": "joel16/3DSident"
+  },
+  "0004000001610000": {
+    "name": "joel16/3DSident"
+  },
+  "0004000003D51B00": {
+    "name": "RigleGit/3dslibris"
+  },
+  "0004000006528000": {
+    "name": "Sunrase/3DSoundboard"
+  },
+  "000400000FF3D500": {
+    "name": "Adritrain09/3DSoundShell"
+  },
+  "0004000004359700": {
+    "name": "Universal-Team/3DVier"
+  },
+  "0004000000754800": {
+    "name": "WLHQ/3DWEB"
+  },
+  "0004000004359800": {
+    "name": "SuperSaiyajinStackZ/3DZwei"
+  },
+  "000400000BAFE000": {
+    "name": "astronautlevel2/Anemone3DS"
+  },
+  "000400000616E600": {
+    "name": "angband/angband"
+  },
+  "0004000000A45E00": {
+    "name": "TurtleP/Antibounce"
+  },
+  "000400000ABA5E00": {
+    "name": "PabloMK7/ArticBaseServer"
+  },
+  "000400000AE5E700": {
+    "name": "azahar-emu/ArticSetupTool"
+  },
+  "000400000A800000": {
+    "name": "RandomMan25XX/atari800"
+  },
+  "000400000A771C00": {
+    "name": "atticpad/atticpad"
+  },
+  "0004000000AD1800": {
+    "name": "Sunrase/AudioSwitcher3ds"
+  },
+  "000400000BAFD200": {
+    "name": "Unitendo/aurorachat"
+  },
+  "000400000EC50000": {
+    "name": "Core-2-Extreme/Battery_mark_for_3DS"
+  },
+  "0004000007893300": {
+    "name": "npid7/BCSTM-Player"
+  },
+  "000400000BC46900": {
+    "name": "cylin577/Better-NFCReader"
+  },
+  "0004000000997800": {
+    "name": "nop90/Biniax2-3DS"
+  },
+  "000400000FFB1A00": {
+    "name": "TheFilipcom4607/BlockBlast-3DS"
+  },
+  "0004000003F18B00": {
+    "name": "Mode8fx/blockamok"
+  },
+  "000400000EB00000": {
+    "name": "xzn/ntr-hr"
+  },
+  "000400000EB30000": {
+    "name": "Nanquitas/BootNTR"
+  },
+  "000400000B0B1B00": {
+    "name": "TricksterGuy/bottomless-block-barrage"
+  },
+  "000400000BED1700": {
+    "name": "AtexBg/bred-editor"
+  },
+  "0004000000463000": {
+    "name": "trainboy2019/ButtonPresser3DS"
+  },
+  "000400000CA4A500": {
+    "name": "narayanx/Canary3DS"
+  },
+  "0004000000686200": {
+    "name": "ItsDeidara/CaptureAssistant"
+  },
+  "000400000BCFFF00": {
+    "name": "BernardoGiordano/Checkpoint"
+  },
+  "0004000008B61400": {
+    "name": "Zachary-Rude/CIA-Installer"
+  },
+  "000400000FF3FE00": {
+    "name": "regimensocial/Citrahold-3DS"
+  },
+  "0004000005115D00": {
+    "name": "ClassiCube/ClassiCube"
+  },
+  "000400000FF00100": {
+    "name": "dwalker109/cloudpoint"
+  },
+  "000400000F800000": {
+    "name": "lartodor/CosmicDrift-for-the-Nintendo-3DS"
+  },
+  "000400000F309800": {
+    "name": "Strrationalism/CPyMO"
+  },
+  "000400000FAB2400": {
+    "name": "RSDuck/craftus_reloaded"
+  },
+  "000400000F1BAD00": {
+    "name": "machinamentum/CS3DS"
+  },
+  "000400000FAA5E00": {
+    "name": "Menshion01/CSTimer-3DS"
+  },
+  "000400000EFD7E00": {
+    "name": "NitroShellMKDS/CTGP-7-Mod-Manager"
+  },
+  "0004000001690200": {
+    "name": "CyberYoshi64/CTGP7-SaveTransfer"
+  },
+  "000400000FF3CC00": {
+    "name": "deltabeard/ctrmus"
+  },
+  "000400000F3D5C00": {
+    "name": "phijor/ctroller"
+  },
+  "000400000FF12300": {
+    "name": "masterfeizz/ctrQuake"
+  },
+  "000400000D37BB00": {
+    "name": "Golem642/CtrRGBPAT2"
+  },
+  "0004000000287000": {
+    "name": "d0k3/CTRXplorer"
+  },
+  "000400000DAED300": {
+    "name": "masterfeizz/daedalusx64-3DS"
+  },
+  "0004000000DDFC00": {
+    "name": "LukeZGD/DDLC-LOVE"
+  },
+  "0004000007456000": {
+    "name": "NPXTobi/Demo-Reset"
+  },
+  "000400000DE5C100": {
+    "name": "patausx/descry"
+  },
+  "0004000003F39500": {
+    "name": "diasurgical/devilutionX"
+  },
+  "0004000000D3D500": {
+    "name": "cmdada/dn3ds"
+  },
+  "000400000D007500": {
+    "name": "carmander152/Doors-3DS"
+  },
+  "000400000D048600": {
+    "name": "MrHuu/dosbox-3ds"
+  },
+  "0004000000771800": {
+    "name": "Cruel/DrawAttack"
+  },
+  "0004000000D81D00": {
+    "name": "ingolemo/drider"
+  },
+  "000400000EF10200": {
+    "name": "noirscape/dses"
+  },
+  "0004000000D59100": {
+    "name": "zoogie/DSP1"
+  },
+  "000400000FF55C00": {
+    "name": "Fishason/DSSH"
+  },
+  "0004000003DD0D00": {
+    "name": "pyroticinsanity/3dsdod"
+  },
+  "0004000000A54400": {
+    "name": "gnmmarechal/easyrpgdlre"
+  },
+  "000400000FF12400": {
+    "name": "masterfeizz/EDuke3D"
+  },
+  "000400000FAC1C00": {
+    "name": "Manurocker95/Evolution_Sav3D_Me"
+  },
+  "000400000ECB9500": {
+    "name": "PabloMK7/EzB9SUpdater"
+  },
+  "0004000000FA6500": {
+    "name": "Spaqin/fbwo-3ds"
+  },
+  "00040000000F9800": {
+    "name": "CorySanin/FastPlayCoin"
+  },
+  "000400000F800100": {
+    "name": "nh-server/FBI-NH"
+  },
+  "00040000064D7000": {
+    "name": "npid7/Flappy-Bird"
+  },
+  "000400000736E400": {
+    "name": "TomiokaH01/fMSX3DS"
+  },
+  "000400000E2C7700": {
+    "name": "NatTupper/Forecast"
+  },
+  "000400000BF74D00": {
+    "name": "erievs/FourthTube"
+  },
+  "0004000001606600": {
+    "name": "joel16/FriendMii"
+  },
+  "000400000BEEF500": {
+    "name": "mtheall/ftpd"
+  },
+  "0004000000192700": {
+    "name": "SombrAbsol/GameYob-3DS"
+  },
+  "0004000005A93B00": {
+    "name": "TS-DEV-DEBUG-V2/GBEMU43DS"
+  },
+  "000400000BB41C00": {
+    "name": "AleFunky/gd3ds"
+  },
+  "000400000F718300": {
+    "name": "flarn2006/graphcalc3ds"
+  },
+  "0004000000998000": {
+    "name": "nop90/Griffon-Legend-3DS"
+  },
+  "00040000001DDB00": {
+    "name": "MechanicalDragon0687/GYTB"
+  },
+  "0004000088B96200": {
+    "name": "CrackedPixel/hackezi-3ds"
+  },
+  "000400000371EB00": {
+    "name": "CollinScripter/Revamped3DS"
+  },
+  "0004000000D39A00": {
+    "name": "TurtleP/Hax0r"
+  },
+  "0004000005831600": {
+    "name": "LiquidFenrir/HexIsoPath"
+  },
+  "000400000D921E00": {
+    "name": "mariohackandglitch/homebrew_launcher_dummy"
+  },
+  "0004000004809E00": {
+    "name": "RocketRobz/HoriHD-Gallery"
+  },
+  "0004000000FF8000": {
+    "name": "vinegar77/hrt-3ds"
+  },
+  "0004000003905700": {
+    "name": "TehFridge/InPost3DS"
+  },
+  "000400000FF12500": {
+    "name": "masterfeizz/Quake2CTR"
+  },
+  "0004000002C23200": {
+    "name": "J-D-K/JKSM"
+  },
+  "000400000F8C3100": {
+    "name": "ellio86/kavita-3ds"
+  },
+  "0004000004342100": {
+    "name": "SuperSaiyajinStackZ/LeafEdit-Pattern-Editor"
+  },
+  "0004000004392100": {
+    "name": "Universal-Team/LeafEdit"
+  },
+  "00040000076E7E00": {
+    "name": "isledecomp/isle-portable"
+  },
+  "0004000002560200": {
+    "name": "Tekito-256/level256-installer"
+  },
+  "000400000EDA0600": {
+    "name": "Oreo639/LimePlayer3DS"
+  },
+  "000400000EC95000": {
+    "name": "Core-2-Extreme/Line_for_3DS"
+  },
+  "0004000004359500": {
+    "name": "SuperSaiyajinStackZ/Ludo3DS"
+  },
+  "000400000A0CA100": {
+    "name": "Possum/LumaLocaleSwitcher"
+  },
+  "00040000030C1C00": {
+    "name": "PeterWarrington/lynx3ds"
+  },
+  "000400000CF02400": {
+    "name": "natsuneco/magic-draw"
+  },
+  "0004000000232100": {
+    "name": "BotRandomness/Mars3DS"
+  },
+  "000400000DEAD100": {
+    "name": "MechanicalDragon0687/MCU_Bricker_tinydb"
+  },
+  "000400000F2C5A00": {
+    "name": "xPsycho999/Meteo3DS"
+  },
+  "00040000001A1E00": {
+    "name": "mgba-emu/mgba"
+  },
+  "000400000F4D3300": {
+    "name": "jamesrhg/mii-transfer-ctr"
+  },
+  "000400000F800200": {
+    "name": "Oldhimaster1/MIVF"
+  },
+  "0004000000A73A00": {
+    "name": "Swiftloke/ModMoon"
+  },
+  "0004000000360000": {
+    "name": "zoeyjodon/moonlight-N3DS"
+  },
+  "0004000000103000": {
+    "name": "hax0kartik/Multidownload"
+  },
+  "0004000000998600": {
+    "name": "nop90/Neopop-SDL"
+  },
+  "000400000F8C1000": {
+    "name": "Michele-3ds/OceanClock"
+  },
+  "000400000D40D200": {
+    "name": "PretendoNetwork/nimbus"
+  },
+  "000400000FA12300": {
+    "name": "lartodor/Nintendo-3DS-SpeedMaze"
+  },
+  "000400000BEE9600": {
+    "name": "gearmo3ds/noisecommander3dsdemo"
+  },
+  "000400000ECA0000": {
+    "name": "Milk-Cool/Notebook3DS"
+  },
+  "000400000FD3FF00": {
+    "name": "RMcTn/Notepad3DS"
+  },
+  "0004000000F9E300": {
+    "name": "SprtnDio/NoteRoom"
+  },
+  "000400000ED99000": {
+    "name": "Ryuzaki-MrL/NotifyMii"
+  },
+  "000400000F0F0F00": {
+    "name": "fauxfennec/OFF3DS"
+  },
+  "0004000006942000": {
+    "name": "Omega-Numworks/Omega"
+  },
+  "0004000003163E00": {
+    "name": "RetroGamer02/omnispeak-3ds"
+  },
+  "0004000008AD5B00": {
+    "name": "gamestabled/OoT3D_Randomizer"
+  },
+  "000400000B043D00": {
+    "name": "MrHuu/openbor-3ds"
+  },
+  "0004000000997100": {
+    "name": "nop90/OpenSyobon3DS"
+  },
+  "000400000FF34000": {
+    "name": "MrHuu/opentitus-3ds"
+  },
+  "000400000FF34100": {
+    "name": "MrHuu/opentitus-3ds"
+  },
+  "0004000000997E00": {
+    "name": "nop90/Opentyrian-3ds"
+  },
+  "000400000F102000": {
+    "name": "EBLeifEricson/orchestrina"
+  },
+  "000400000028A900": {
+    "name": "SaturnSH2x2/PayloadSpinner3DS"
+  },
+  "000400000F885F00": {
+    "name": "suloku/pdrpse"
+  },
+  "000400000F00D500": {
+    "name": "PetPal-Team/PetPal"
+  },
+  "0004000000384C00": {
+    "name": "bubble2k16/picodrive_3ds"
+  },
+  "0004000004330000": {
+    "name": "SuperSaiyajinStackZ/PKCount"
+  },
+  "000400000EC10000": {
+    "name": "FlagBrew/PKSM"
+  },
+  "000400000BEAAA00": {
+    "name": "sheepy0125/pomegranate"
+  },
+  "000400000E652700": {
+    "name": "Sunrase/Pong-Pokemon-3ds"
+  },
+  "0004000000370000": {
+    "name": "PainDe0Mie/PotatoStream"
+  },
+  "0004000000997B00": {
+    "name": "nop90/POWDER-3DS"
+  },
+  "0004000005A9BB00": {
+    "name": "Voxel9/PrBoom-Plus-3DS"
+  },
+  "000400000F003200": {
+    "name": "elhobbs/prboom3ds"
+  },
+  "000400000FE7CB00": {
+    "name": "skyfloogle/red-viper"
+  },
+  "000400000F0FF300": {
+    "name": "einso/3ds-randomtitlepicker"
+  },
+  "0004000004444400": {
+    "name": "ashbit06/RanGen-3DS"
+  },
+  "000400000316A300": {
+    "name": "RetroGamer02/raptor-consoles"
+  },
+  "000400000A55C100": {
+    "name": "Hoksy/ravimid"
+  },
+  "0004000000DF1000": {
+    "name": "hax0kartik/rehid"
+  },
+  "0004000002340000": {
+    "name": "saysaa/ReSharp3DS"
+  },
+  "000400000BAC0000": {
+    "name": "libretro/RetroArch"
+  },
+  "0004000000FCCC00": {
+    "name": "Storm-Eagle20/RTChanger"
+  },
+  "0004000003697300": {
+    "name": "RocketRobz/SavvyManager"
+  },
+  "000400000C0D3C00": {
+    "name": "Adrix12team/SCR2JPG"
+  },
+  "0004000000214300": {
+    "name": "ScratchEverywhere/ScratchEverywhere"
+  },
+  "000400000F0ACC00": {
+    "name": "ihaveamac/screenshot-merge"
+  },
+  "000400000FF32100": {
+    "name": "scummvm/scummvm"
+  },
+  "000400000F000100": {
+    "name": "dnasdw/SharedFontTool"
+  },
+  "000400000F000200": {
+    "name": "dnasdw/SharedFontTool"
+  },
+  "0004000000982400": {
+    "name": "CacahueteSansSel/SliderPong"
+  },
+  "000400000A7FC800": {
+    "name": "Ordim3n/Smash-Amiibo-Cheat-Tool"
+  },
+  "00040000005BF300": {
+    "name": "Trinitro21/lpp-3ds"
+  },
+  "0004000004269000": {
+    "name": "Zachary-Rude/Snake-for-3DS"
+  },
+  "0004000000104300": {
+    "name": "Jacudibu/Snake2DS"
+  },
+  "0004000009034200": {
+    "name": "DDews/Snakes"
+  },
+  "0004000000384900": {
+    "name": "bubble2k16/snes9x_3ds"
+  },
+  "0004000000479B00": {
+    "name": "JeffRuLz/Sonic-1-2-2013-Decompilation"
+  },
+  "0004000000479C00": {
+    "name": "JeffRuLz/Sonic-1-2-2013-Decompilation"
+  },
+  "00040000072F0300": {
+    "name": "Voxel9/Sonic-CD-11-3DS-Redux"
+  },
+  "0004000030820000": {
+    "name": "SaturnSH2x2/RSDKv5-Decompilation"
+  },
+  "000400000F004200": {
+    "name": "derrekr/srb2_3ds"
+  },
+  "000400000F3D9900": {
+    "name": "phijor/SpecializeMii"
+  },
+  "000400000EF10100": {
+    "name": "noirscape/SRAU"
+  },
+  "0004000004350900": {
+    "name": "SuperSaiyajinStackZ/StackMill"
+  },
+  "000400000FF3D100": {
+    "name": "imissuuuu/StreaMu"
+  },
+  "0004000000715300": {
+    "name": "zoogie/Stuff"
+  },
+  "000400000E394200": {
+    "name": "Mode8fx/SuDokuL"
+  },
+  "000400000099AA00": {
+    "name": "RedTopper/Super-Haxagon"
+  },
+  "0004000005250400": {
+    "name": "RocketRobz/SuperPhotoStudio"
+  },
+  "0004000003F9AD00": {
+    "name": "CharlesAverill/SuperML"
+  },
+  "0004000000998200": {
+    "name": "nop90/Supertux-Milestone1-3ds"
+  },
+  "0004000000133700": {
+    "name": "Just-a-Spider/SysMon"
+  },
+  "0004000000384B00": {
+    "name": "bubble2k16/temperpce_3ds"
+  },
+  "0004000000A8BF00": {
+    "name": "DanTheMan827/tikSweep"
+  },
+  "000400000C243300": {
+    "name": "badda71/TinyVNC"
+  },
+  "000400000B765500": {
+    "name": "LuMariGames/TJAP_3DS"
+  },
+  "0004000000F77C00": {
+    "name": "DisLoPik/Tor3ds"
+  },
+  "0004000000544B00": {
+    "name": "LuMariGames/Touch-Keys"
+  },
+  "000400000FAC4C00": {
+    "name": "Manurocker95/TRekt_3D"
+  },
+  "000400000D5C0D00": {
+    "name": "2b-zipper/TriCord"
+  },
+  "000400000CB52C00": {
+    "name": "Mode8fx/Trogdor-Reburninated"
+  },
+  "000400000F123400": {
+    "name": "veylo-3DS/Tunez-3DS"
+  },
+  "000400000F5ACD00": {
+    "name": "TurtleP/TurtleInvaders"
+  },
+  "000400000F0DEF00": {
+    "name": "TuxSH/TWLSaveTool"
+  },
+  "0004000004964300": {
+    "name": "badda71/uae3DS"
+  },
+  "0004000004391500": {
+    "name": "Universal-Team/Universal-Edit"
+  },
+  "0004000004391700": {
+    "name": "Universal-Team/Universal-Updater"
+  },
+  "0004000001F50400": {
+    "name": "GiantBlargg/UpdateSuppressor"
+  },
+  "00040000011A8700": {
+    "name": "lxfly2000/VConV"
+  },
+  "000400000FF4BA00": {
+    "name": "badda71/vice3ds"
+  },
+  "000400000EC60000": {
+    "name": "Core-2-Extreme/Video_player_for_3DS"
+  },
+  "0004000000384A00": {
+    "name": "bubble2k16/emus3ds"
+  },
+  "00040000005DC900": {
+    "name": "Zakary2841/WifiManager"
+  },
+  "000400000FAC2C00": {
+    "name": "Manurocker95/WITB_3D"
+  },
+  "0004000000DF1100": {
+    "name": "hax0kartik/wumiibo"
+  },
+  "000400000FF12800": {
+    "name": "masterfeizz/Xash3DS"
+  },
+  "0004000000997D00": {
+    "name": "nop90/Xrick-3ds"
+  },
+  "0004000001473300": {
+    "name": "LiquidFenrir/Yahtzee3DS"
+  },
+  "000400000711AB00": {
+    "name": "MillKeny/flappy"
+  },
+  "000400000EC90000": {
+    "name": "TehFridge/Zappka3DS"
+  },
+  "0004000005A20D00": {
+    "name": "EstebanPdN/zelda-alttp-3ds"
+  },
+  "0004000000997400": {
+    "name": "nop90/Zelda3T"
+  },
+  "0004000000997300": {
+    "name": "nop90/ZeldaOLB"
+  },
+  "0004000000998100": {
+    "name": "nop90/ZeldaPicross"
+  },
+  "0004000000997200": {
+    "name": "nop90/ZeldaROTH"
+  }
+}
