@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>TID-API</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/grid.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="brand">TID<span>-API</span></div>
+    </header>
+
+    <section data-section="content">
+      <div class="container">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <div class="content-box">
+            <h1>Available Endpoints</h1>
+            <p>Choose which database to open.</p>
+
+            <div class="endpoint recommended" data-href="titles.json">
+              <div class="endpoint-head">
+                <span class="endpoint-name">titles.json</span>
+                <span class="endpoint-badge">Recommended</span>
+              </div>
+              <div class="endpoint-url">/titles.json</div>
+              <p>Merged database of official NUS titles and homebrew entries. Updated hourly. Use this for the latest combined data.</p>
+            </div>
+
+            <div class="endpoint" data-href="data/nus-titles.json">
+              <div class="endpoint-head">
+                <span class="endpoint-name">nus-titles.json</span>
+              </div>
+              <div class="endpoint-url">/data/nus-titles.json</div>
+              <p>Official eShop / NUS Title IDs only. Manually curated.</p>
+            </div>
+
+            <div class="endpoint" data-href="data/udb-titles.json">
+              <div class="endpoint-head">
+                <span class="endpoint-name">udb-titles.json</span>
+              </div>
+              <div class="endpoint-url">/data/udb-titles.json</div>
+              <p>Homebrew applications from the Universal-DB. Updated hourly.</p>
+            </div>
+          </div>
+
+          <div class="content-box">
+            <h1>About</h1>
+            <p>TID-API is a static, hourly-refreshed collection of Nintendo 3DS Title IDs. Pick an endpoint above to open its JSON directly. All files are served via GitHub Pages.</p>
+          </div>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+    </section>
+
+    <script>
+      document.querySelectorAll(".endpoint").forEach(function (el) {
+        el.addEventListener("click", function () {
+          window.location.href = el.getAttribute("data-href");
+        });
+      });
+    </script>
+  </body>
+</html>
