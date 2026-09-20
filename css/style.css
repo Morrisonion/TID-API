@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+.clear { clear: both; }
+* { font-family: 'Open Sans', sans-serif; }
+a { color: #ff9800; }
+a:hover { text-decoration: none; }
+
+body {
+  background: #d4d8de;
+  color: #000;
+}
+
+header {
+  background: #fff;
+  padding: 20px 0px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+header .brand {
+  text-align: center;
+  font-weight: 700;
+  color: #263248;
+}
+
+header .brand span {
+  font-weight: 400;
+  margin-left: 5px;
+}
+
+section[data-section="content"] {
+  margin-top: 40px;
+}
+
+section[data-section="content"] .content-box {
+  padding: 20px;
+  margin-bottom: 25px;
+  background: #fff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+section[data-section="content"] .content-box h1 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #263248;
+  font-weight: 300;
+}
+
+section[data-section="content"] .content-box p {
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.endpoint {
+  padding: 16px 18px;
+  margin-bottom: 12px;
+  border: 2px solid #d4d8de;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.2s ease all;
+  background: #fafbfc;
+}
+
+.endpoint:hover {
+  border-color: #ff9800;
+  background: #fff;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.12);
+  transform: translateY(-1px);
+}
+
+.endpoint.recommended {
+  border-color: #ff9800;
+  background: #fff8ee;
+}
+
+.endpoint.recommended:hover {
+  box-shadow: 0px 8px 16px rgba(255, 152, 0, 0.25);
+}
+
+.endpoint-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.endpoint-name {
+  font-weight: 700;
+  font-size: 18px;
+  color: #263248;
+}
+
+.endpoint-badge {
+  background: #ff9800;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 3px 8px;
+  border-radius: 3px;
+}
+
+.endpoint-url {
+  font-family: 'Courier New', monospace;
+  font-size: 13px;
+  color: #ff9800;
+  margin-bottom: 8px;
+  word-break: break-all;
+}
+
+.endpoint p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #444;
+  margin-bottom: 0;
+}
