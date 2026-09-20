@@ -7,6 +7,7 @@ A merged, always up-to-date database of Nintendo 3DS Title IDs
 ### https://morrisonion.github.io/TID-API/
 
 ![Update title databases](https://github.com/Morrisonion/TID-API/actions/workflows/update.yml/badge.svg)
+
 ![JS](https://img.shields.io/badge/JavaScript-F7DF1E?&logo=javascript&logoColor=black)
 [![License](https://img.shields.io/badge/license-GPLv3-red)](https://github.com/Morrisonion/TID-API/raw/main/LICENSE)
 
